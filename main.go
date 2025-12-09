@@ -25,12 +25,13 @@ func main() {
 	}
 
 	jim.updateName("Felipe")
-	jim.print()
+	//jim.print()
 
 }
 
 func (p person) updateName(newFirstName string) {
 	p.firstName = newFirstName
+	p.print()
 }
 
 func (p person) print() {
